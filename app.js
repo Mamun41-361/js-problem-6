@@ -6,6 +6,7 @@
 ﻿make sure to validate all the inputs
 ﻿Perform all calculations (tax, balance, savings, financial status).
 ﻿Show the results in the console.
+
 /*
 MI Personal Budget Tracker
 User: Alex
