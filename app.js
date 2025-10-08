@@ -21,3 +21,21 @@ Needs Improvement. Consider reducing expenses.
 
 let usern=prompt("yoyr Name :");
 let totalincom=parseInt(prompt("your total income :"));
+let totalex=parseInt(prompt("Total Expenses :"));
+
+if(isNaN(totalincom) || isNaN(totalex) || totalincom<=0 || totalex<=0 || totalex<0){
+    console.log("invalid  Input Try again")
+}
+else{
+    let totalex=0;
+
+    for(let i=1; i<=totalex; i=i+1){
+        let expense=parseFloat(prompt('inter expenses ${i}: '));
+
+        if(isNaN(totalex) || totalex<0){
+            console.log('invalid ${i} , setting it it $0');
+            totalex=0;
+        }
+        
+    }
+}
