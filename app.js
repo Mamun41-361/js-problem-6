@@ -19,3 +19,5 @@ Savings (20% of balance): $460
 Needs Improvement. Consider reducing expenses.
 */
 
+let usern=prompt("yoyr Name :");
+let totalincom=parseInt(prompt("your total income :"));
